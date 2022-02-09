@@ -1,3 +1,5 @@
 git常用命令
-1、git init 初始化
-2、git add 
+1、git init 初始化创建本地仓库
+2、git add 文件名
+3、 git commit -m"add git.txt file"  提交操作，给出说明
+4、git statu 查看状态
