@@ -7,4 +7,5 @@ git常用命令
 6、git diff  查看修改
 7、git reflog  查看历史命令
 8、git  reset --hard HEAD^ 回退到上一个版本  git --hard HEAD~10回退到10个版本之前
-9. git checkout --文件名    回滚操作
+9. git checkout --文件名    回滚操作 回滚到上一次提交之后
+10、删除文件，删除，git rm 文件名,git add . ，git commit -m“描述” 提交操作
