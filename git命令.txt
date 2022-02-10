@@ -9,3 +9,14 @@ git常用命令
 8、git  reset --hard HEAD^ 回退到上一个版本  git --hard HEAD~10回退到10个版本之前
 9. git checkout --文件名    回滚操作 回滚到上一次提交之后
 10、删除文件，删除，git rm 文件名,git add . ，git commit -m“描述” 提交操作
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>或者git switch <name>
+
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
